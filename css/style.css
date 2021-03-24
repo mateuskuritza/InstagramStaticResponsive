@@ -1,0 +1,391 @@
+/* 942px tudo */
+
+ion-icon{
+    font-size: 20px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #E5E5E5;
+}
+.fontsize14px{
+    font-size: 14px;
+}
+.fontsize12px{
+    font-size: 12px;
+}
+.fontcinza{
+    color: #8e8e8e;
+}
+.seguir{
+    font-size: 12px;
+    color: #139EF2;
+}
+/* conteudo do topo */
+
+.topbar{
+    position: fixed;
+    height: 54px;
+    width: 100%;
+    top: 0;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.topbaritems{
+    width: 942px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 54px;
+}
+
+.logotop div{
+    background: #DBDBDB;
+    width: 1px;
+    height: 22px;
+}
+
+.logotop{
+    width: 16%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logotop img{
+    width: 69%;
+}
+
+.iconestopo{
+    width: 16%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input{
+    border-radius: 3px;
+    width: 23%;
+    height: 28px;
+    background: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    text-align: center;
+    box-sizing: border-box;
+    color: #8E8E8E;
+    font-size: 12px;
+}
+
+/* conteudo abaixo da barra do topo */
+
+.conteudo{
+    width: 942px;
+    margin: 88px auto 0 auto;
+    display: flex;
+}
+
+/* barra lateral */
+
+.barralateral{
+    width: 300px;
+    height: 438px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    right: calc(50vw - 486px);
+}
+
+/* barra lateral topo */
+.barralateraltopo{
+    height: 13%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.barralateraltopo div{
+    margin-left: 17px;
+}
+
+/* barra lateral sugestoes */
+
+/* sugestoes texto topo */
+.barralateral > div:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+}
+
+.barralateralinferior{
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sugestoesparaseguir{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sugestoesparaseguir div:first-of-type{
+    width: 74%;
+}
+
+.sobre{
+    font-size: 11px;
+    color: #C7C7C7;
+    line-height: 13px;
+}
+
+/* conteudo principal > stories e rolagem */
+
+.principalconteudo{
+    width: 614px;
+}
+
+/* stories  falta arrumar!! stories*/
+.stories{
+    width: 100%;   /* 65% */
+    height: 118px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+    overflow: auto;
+}
+
+.storiesarrow{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.arrowstories{
+    position: absolute;
+    font-size: 32px;
+    opacity: 0.8;
+    right: 1%;
+}
+.story img{
+    background-image: url("/imgs/stories_background1.png");
+    background-position: center;
+}
+
+.story{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto 24px;
+}
+
+.story p{
+    margin-top: 5px;
+}
+
+/* feed rolagem */
+
+.stories, .conteudofeed{
+    background: #FFFFFF;
+}
+
+.rolagem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.conteudofeed{
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin: 24px 0 60px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titulofeed{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin: 0 2%;
+}
+
+.titulofeed div{
+    display: flex;
+    align-items: center;
+}
+
+.titulofeed p{
+    margin-left: 8px;
+}
+
+.iconesfeed{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    margin: 0 2%;
+}
+
+.iconesfeed div{
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.curtidasfeed{
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+.curtidasfeed img {
+    margin: 0 2%;
+    margin-bottom: 6px;
+}
+
+
+/* mobile */
+
+.barrainferiormobile{
+    display: none;
+}
+
+.logomobile{
+    display: none;
+}
+
+
+/* comentar feed */
+
+.comentarios{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1px 2%;
+}
+
+.comentarios ion-icon:hover{
+    transition: 300ms;
+    color: red;
+}
+
+.comentar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #DBDBDB;
+}
+.comentar button{
+    background: none;
+    border: none;
+    color: #B2DFFC;
+    margin-right: 2px;
+}
+
+.comentar button:hover{
+    transition: 300ms;
+    border: 1px solid #0095F6;
+    border-radius: 20px;
+    color: #0095F6;
+}
+
+.comentar input{
+    width: 70%;
+    color: #752a7c;
+    border: 0 none;
+    outline: 0;
+    text-align: left;
+    background: none;
+    margin-left: 10px;
+}
+
+@media (max-width: 935px){
+
+    .barralateral{
+        display: none;
+    }
+
+    .conteudo{
+        width: 65%;
+        display: block;
+    }
+
+    .logotop{
+        margin-left: 1%;
+    }
+
+    .stories{
+        width: 100%;
+    }
+    .principalconteudo{
+        width: 100%;
+    }
+}
+
+@media (max-width: 614px){
+
+    .stories{
+        background: transparent;
+        border: none;
+        margin-bottom: auto;
+    }
+
+    .conteudo{
+        width: 100%;
+        margin: 64px auto 0 auto;
+    }
+    .barrainferiormobile{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background: #FFFFFF;
+        border: 1px solid #DBDBDB;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        height: 60px;
+        justify-content: space-around;
+    }
+
+    .barrainferiormobile > *{
+        font-size: 30px;
+    }
+
+    .topbar input, .logotop, .iconestopo ion-icon:nth-child(2n), .iconestopo ion-icon:nth-child(3){
+        display: none;
+    }
+
+    .logomobile{
+        display: block;
+    }
+
+    .iconestopo{
+        width: 5%;
+    }
+
+    .topbaritems{
+        justify-content: space-between;
+    }
+
+    .topbaritems > *{
+        margin: 2%;
+    }
+    .arrowstories{
+        display: none;
+    }
+}
