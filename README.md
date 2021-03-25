@@ -2,3 +2,38 @@
 
 
 
+> Página desenvolvida utilizando apenas **CSS** e **HTML**. 
+
+
+
+#### :wrench: ​​Principais pontos: 
+
++ Foram utilizados ícones da biblioteca <a href="https://ionicons.com/">Ionicons</a>;
+
++ Caixa dos stories com scroll horizontal;
+
++ Barra do topo e barra lateral fixas;
+
++ Barra do topo e barra inferior mobile fixas.
+
+
+
+#### :eyes: Existem dois breakpoints com *Media Query* em larguras de:
+
+* 935px onde é retirada a barra lateral;
+* 614px onde a página passa para seu layout mobile.
+
+
+
+
+
+
+
+##### :page_with_curl: ​Fontes úteis para o desenvolvimento desse projeto: 
+
+> Para a organização do layout: <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Flex-Box</a>
+
+> Fixar elementos na tela: <a href="https://www.w3schools.com/css/css_positioning.asp">Position Fixed</a>
+
+> Fundo das imagens nos stories: <a href="https://css-tricks.com/almanac/properties/b/background-image/">background-image</a>
+
