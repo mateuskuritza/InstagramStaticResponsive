@@ -96,7 +96,7 @@ input{
     flex-direction: column;
     justify-content: space-between;
     position: fixed;
-    right: calc(50vw - 486px);
+    right: calc(50vw - 484px);
 }
 
 /* barra lateral topo */
