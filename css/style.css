@@ -32,7 +32,6 @@ body{
     border: 1px solid #DBDBDB;
     display: flex;
     justify-content: center;
-    z-index: 1;
 }
 
 .topbaritems{
@@ -141,7 +140,7 @@ input{
 
 .sobre{
     font-size: 11px;
-    color: #C7C7C7;
+    color: #b9b9b9;
     line-height: 13px;
 }
 
@@ -182,10 +181,11 @@ input{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin: auto 24px;
+    margin: auto 12px;
 }
 
 .story img{
+    width: 56px;
     padding: 5px;
     background-image: url("/imgs/stories_background1.png");
     background-size: contain;
@@ -217,7 +217,7 @@ input{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
+    height: 60px;
     margin: 0 2%;
 }
 
@@ -273,7 +273,7 @@ input{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1px 2%;
+    margin: 2px 2%;
 }
 
 .comentarios ion-icon:hover{
@@ -304,10 +304,10 @@ input{
 
 .comentar input{
     width: 70%;
-    color: #0095F6;
+    color: black;
     border: none;
     text-align: left;
-    background: #dff2ff;
+    background: #f5fbff;
     border-radius: 24px;
     margin-left: 15px;
     padding-left: 40px;
