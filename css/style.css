@@ -32,6 +32,7 @@ body{
     border: 1px solid #DBDBDB;
     display: flex;
     justify-content: center;
+    z-index: 10;
 }
 
 .topbaritems{
@@ -44,7 +45,7 @@ body{
 
 .logotop div{
     background: #DBDBDB;
-    width: 1px;
+    width: 2px;
     height: 22px;
 }
 
@@ -53,6 +54,10 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.logotop img{
+    margin-top: 5px;
 }
 
 .logotop img{
