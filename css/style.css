@@ -2,6 +2,20 @@
 
 ion-icon{
     font-size: 20px;
+    cursor: pointer;
+}
+
+ion-icon:hover{
+    filter: contrast(30%);
+    
+}
+
+.cursor, img, .seguir, strong{
+    cursor: pointer;
+}
+
+strong:hover{
+    text-decoration: underline;
 }
 
 body{
