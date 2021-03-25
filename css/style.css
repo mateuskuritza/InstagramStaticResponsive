@@ -263,6 +263,7 @@ input{
 
 .comentarios{
     display: flex;
+    justify-content: space-between;
     margin: 2px 2%;
 }
 .comentarios ion-icon:hover{
