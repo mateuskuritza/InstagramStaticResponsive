@@ -176,20 +176,19 @@ input{
     opacity: 0.8;
     right: 1%;
 }
-.story img{
-    background-image: url("/imgs/stories_background1.png");
-    background-position: center;
-}
 
 .story{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     margin: auto 24px;
 }
 
-.story p{
-    margin-top: 5px;
+.story img{
+    padding: 5px;
+    background-image: url("/imgs/stories_background1.png");
+    background-size: contain;
 }
 
 /* feed rolagem */
